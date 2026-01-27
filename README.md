@@ -20,7 +20,7 @@ A diferencia de los modelos de lenguaje genéricos (LLMs), RAFAELA integra:
 
 El sistema opera en tres fases cognitivas:
 
-1.  **Fase de Percepción (Neural):** * El modelo `acra_model_v2` clasifica la observación en 7 dimensiones taxonómicas (Biótico, Social, Físico, Deficiencia Técnica, etc.) y sugiere la normativa aplicable.
+1.  **Fase de Percepción (Neural):** * El modelo `RAFAELA` clasifica la observación en 7 dimensiones taxonómicas (Biótico, Social, Físico, Deficiencia Técnica, etc.) y sugiere la normativa aplicable.
 2.  **Fase de Recuperación (RAG):**
     * El sistema vectoriza la observación y busca los "Vecinos Más Cercanos" (Nearest Neighbors) en el *Gold Standard* para encontrar precedentes técnicos validados.
 3.  **Fase de Generación (Simbólica):**
